@@ -1,0 +1,95 @@
+/* Selector de IDs */
+#encabezado {
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+#menu {
+    top:10%;
+    left: 0;
+    height: 5%;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    background-color: red;
+}
+
+#barra {
+    top:30%;
+    left: 0;
+    height: 75%;
+    width: 20%;
+    position: fixed;
+    text-align: center;
+    background-color: purple;
+}
+#contenido {
+    top:15%;
+    left: 20;
+    height: 75%;
+    width: 80%;
+    position: fixed;
+    text-align: center;
+    background-color: black;
+}
+
+#piepagina {
+    botton:0%;
+    left: 0;
+    height: 10%;
+    width: 10%;
+    position: fixed;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+
+.parrafoBlanco {
+    color: white;
+
+}
+
+.parrafoCentrado{
+    text-align: center;
+}
+
+.parrafoRed{
+    color: red;
+}
+
+/*p{
+   font-size: 20px;
+}*/
+
+/*p,h1,h2{
+    font-size: 50px;
+}*/
+
+/*div parrafoBlanco p{
+    font-size: 25px; 
+}*/
+
+*{
+    font-size: 40px;
+    
+}
+
+body{
+    background-color: gray;
+}
+
+a:visited {
+    font-size: 30px;
+}
+
+a:hover{
+    background-color: green;
+    color: whitw;
+    transition:1s;
+}
+
